@@ -42,6 +42,16 @@ cuadrada =
     border: none;
     border-radius: 20px;
     background-color: #001a2c;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform;
+}
+
+.card-css:hover {
+    transform: scale(1.05) rotateY(5deg) rotateX(3deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 1);
+    cursor: default;
 }
 
 .card-text {
