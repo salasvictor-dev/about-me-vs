@@ -1,7 +1,7 @@
 /* Fonts 
 
-redonda = Comic Relief
-cuadrada = 
+redonda = Itim
+cuadrada = Michroma
 
 */
 
@@ -17,8 +17,8 @@ cuadrada =
 
 .bar h3 {
     margin: 0px;
-    font-size: 17px;
-    font-family: "Comic Relief", "Monospace";
+    font-size: 20px;
+    font-family: "Itim", cursive;
 }
 
 .bg-master {
@@ -37,25 +37,16 @@ cuadrada =
 
 /* Card */
 .card-css {
-    margin: 1rem 2rem;
+    margin: 0.5rem 0px;
     width: 21rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #001a2c;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    will-change: transform;
-}
-
-.card-css:hover {
-    transform: scale(1.05) rotateY(5deg) rotateX(3deg);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 1);
-    cursor: default;
 }
 
 .card-text {
-    font-size: 12px;
+    font-family: "Itim";
+    font-size: 13px;
     text-align: justify;
     color: #ffffff;
     line-height: 1.8;
@@ -67,4 +58,23 @@ cuadrada =
 
 .list-group-item {
     background-color: #001a2c;
+    font-family: "Itim";
+}
+
+/* Grid */
+.title-blue {
+    text-align: right;
+    color: #002945;
+    font-family: "Michroma";
+    margin-top: 1rem;
+}
+
+.container-right {
+    background-color: #001a2c;
+    color: #ffffff;
+    min-height: 65px;
+    width: 35rem;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px;
 }
