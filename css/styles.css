@@ -40,13 +40,14 @@ cuadrada = Michroma
     margin: 0.5rem 0px;
     width: 21rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: #001a2c;
 }
 
 .card-text {
     font-family: "Itim";
     font-size: 13px;
+    font-weight: 200;
     text-align: justify;
     color: #ffffff;
     line-height: 1.8;
@@ -63,18 +64,38 @@ cuadrada = Michroma
 
 /* Grid */
 .title-blue {
-    text-align: right;
     color: #002945;
     font-family: "Michroma";
     margin-top: 1rem;
 }
 
-.container-right {
+.knowledge-card {
     background-color: #001a2c;
-    color: #ffffff;
-    min-height: 65px;
-    width: 35rem;
-    border-radius: 15px;
-    text-align: center;
-    padding: 0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.progress-bar-sim {
+    background-color: #00111c;
+    border-radius: 5px;
+    width: 120px;
+    height: 10px;
+    position: relative;
+}
+
+.progress-bar-sim::after {
+    content: "";
+    display: block;
+    background: #002e4e;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.mini-logo {
+    height: 50px;
+    padding: 0;
+    margin-right: 5;
 }
